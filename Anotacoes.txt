@@ -1,0 +1,22 @@
+
+## Copiar o repositório remoto para o local
+Em "Code" copiar o HTTPS ou SSH
+
+git clone https://...(colar o link copiado)
+
+cd nomedorepositorio // entro no repositorio
+
+git status // //mostra se há alguma alteração pendente
+
+
+
+##Mandar o repositório local para o remoto:
+
+git status  //mostra se há alguma alteração pendente
+
+dit add .  // adiciona os arquivos ao controle de versão
+
+git commit -m "Sua mensagem sobre o comit"  // comita no repositório local 
+
+git push origin main // dá um push no repositório remoto
+
